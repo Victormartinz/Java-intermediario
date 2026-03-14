@@ -8,6 +8,9 @@ public class Main {
         Naruto.idade = 18;
         Naruto.aldeia = "Konoha";
 
+        String chamadaNaruto = Naruto.BoasVindas();
+        System.out.println(chamadaNaruto);
+
         //-----------Sasuke------------------
 
         Ninja Sasuke = new Ninja();
@@ -25,9 +28,12 @@ public class Main {
         //------------Sakura---------------------
 
         Ninja Sakura = new Ninja();
-        Sasuke.nome = "Sakura Haruno";
-        Sasuke.idade = 19;
-        Sasuke.nome = "Konoha";
+        Sakura.nome = "Sakura Haruno";
+        Sakura.idade = 19;
+        Sakura.aldeia = "Konoha";
+
+        String chamadaSakura = Sakura.BoasVindas();
+        System.out.println(chamadaSakura);
 
     }
 }

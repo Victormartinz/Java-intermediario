@@ -9,7 +9,7 @@ public class Ninja {
     }
 
     public String BoasVindas(){
-        return "Oi, Meu nome é Sasuke e eu sou um Ninja Vingador";
+        return "Oi, Meu nome é " + nome;
     }
 
     public int AnosParaSerHokage(int idadeMininaParaSerHokage){
